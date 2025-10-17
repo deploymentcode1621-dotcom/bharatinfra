@@ -150,7 +150,7 @@ export default function Hero() {
                 Get Started
               </button>
               <button className="px-10 py-4 bg-transparent text-white font-semibold rounded-full border-2 border-white/60 hover:bg-white/10 hover:border-white transition-all duration-300 text-base">
-                Learn More
+                connect us
               </button>
             </div>
           </div>

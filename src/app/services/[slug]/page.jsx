@@ -4,11 +4,10 @@ import { useParams } from "next/navigation";
 export default function ServiceDetailPage() {
   const { slug } = useParams();
 
-  // You can later replace this with actual service data lookup
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-orange-50 to-white px-6 py-20">
       <h1 className="text-3xl md:text-5xl font-bold text-orange-600 mb-6 capitalize">
-        {slug.replace(/-/g, " ")}
+        {slug ? slug.replace(/-/g, " ") : "Loading..."}
       </h1>
       <p className="text-gray-700 text-lg max-w-2xl text-center">
         This is the detail page for <strong>{slug}</strong>.  
