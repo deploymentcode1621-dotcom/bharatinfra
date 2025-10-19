@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block backend or private pages (if exist)
+Disallow: /admin
+Disallow: /dashboard
+
+# Sitemap location
+Sitemap: https://www.bharatinfrastructure.com/sitemap.xml
