@@ -268,15 +268,17 @@ export default function ContactSection() {
                   </label>
                   <div className="relative">
                     <Mail className="absolute left-3 top-3 w-5 h-5 text-gray-400" />
-                    <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full pl-11 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
-                      placeholder="jamir.shaikh@gmail.com"
-                    />
+                   <input
+  suppressHydrationWarning
+  type="email"
+  name="email"
+  value={formData.email}
+  onChange={handleChange}
+  required
+  className="w-full pl-11 pr-4 py-3 border-2 border-gray-200 rounded-xl focus:border-blue-500 focus:ring-2 focus:ring-blue-100 outline-none"
+  placeholder="jamir.shaikh@gmail.com"
+/>
+
                   </div>
                 </div>
               </div>

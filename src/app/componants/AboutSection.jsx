@@ -85,7 +85,7 @@ export default function AboutSection() {
             Leading India's Solar Revolution
           </h2>
           <p className="text-base text-gray-600 max-w-3xl mx-auto">
-            Empowering homes and businesses with sustainable, affordable, and reliable solar energy solutions since 2010
+            Empowering homes and businesses with sustainable, affordable, and reliable solar energy solutions since 2019
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export default function AboutSection() {
 
               {/* Experience Badge */}
               <div className="absolute -top-4 -left-4 bg-gradient-to-br from-sky-500 to-blue-600 text-white rounded-xl p-4 shadow-xl">
-                <div className="text-3xl font-bold">15+</div>
+                <div className="text-3xl font-bold">10+</div>
                 <div className="text-xs font-semibold">Years Experience</div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function AboutSection() {
             </h3>
             
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              At <span className="font-semibold text-blue-600">Bharat Infra</span>, we believe in the power of the sun to create a cleaner, greener tomorrow. Since our inception in 2010, we've installed over 50MW of solar capacity across India, helping thousands of families and businesses reduce their carbon footprint while saving on energy costs.
+              At <span className="font-semibold text-blue-600">Bharat Infra</span>, we believe in the power of the sun to create a cleaner, greener tomorrow. Since our inception in 2019, we've installed over 50MW of solar capacity across India, helping thousands of families and businesses reduce their carbon footprint while saving on energy costs.
             </p>
 
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
@@ -143,7 +143,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 gap-3 pt-3">
               {[
                 { icon: Award, label: "ISO Certified" },
-                { icon: Users, label: "5000+ Customers" },
+                { icon: Users, label: "1000+ Customers" },
                 { icon: CheckCircle, label: "100% Quality" },
                 { icon: Heart, label: "24/7 Support" }
               ].map((item, idx) => (
