@@ -64,7 +64,7 @@ export default function Header() {
             <img
               src="/images/bharatinfralogo.png"
               alt="Bharat Infra Logo"
-              className="h-12 md:h-24 w-auto object-contain transition-transform duration-300 group-hover:scale-120"
+              className="h-12 md:h-24 w-auto mt-2.5 object-contain transition-transform duration-300 group-hover:scale-101"
             />
           </Link>
 

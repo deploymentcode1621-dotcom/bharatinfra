@@ -36,17 +36,15 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-3 group">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-sky-400 to-blue-600 rounded-xl blur-md opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                <div className="relative bg-gradient-to-br from-sky-500 via-blue-600 to-blue-700 p-2.5 rounded-xl transform group-hover:rotate-180 transition-transform duration-500">
-                  {/* <Sun className="w-6 h-6 text-white" strokeWidth={2.5} /> */}
-                  
-                </div>
+                <div className="absolute inset-0 bg-gradient-to-br from-white-400 to-white-600 rounded-xl blur-md opacity-50 group-hover:opacity-75 transition-opacity"></div>
+               
               </div>
               <div>
-                <h3 className="text-2xl font-bold bg-gradient-to-r from-sky-400 to-blue-500 shadow-sm bg-clip-text text-transparent">
-                  Bharat Infrastructure
-                </h3>
-                <p className="text-xs text-gray-400 font-medium">Solar Solutions</p>
+                <h3 className="text-2xl font-bold text-white drop-shadow-[0_0_8px_rgba(56,189,248,0.8)]">
+  Bharat Infrastructure
+</h3>
+
+                {/* <p className="text-xs text-gray-400 font-medium">Solar Solutions</p> */}
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
