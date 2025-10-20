@@ -152,8 +152,8 @@ export default function Footer() {
                   <Mail className="w-4 h-4 text-blue-500 group-hover:text-white" />
                 </div>
                 <div>
-                  <a href="mailto:bharatinfra8080@gmail.com" className="text-gray-400 hover:text-blue-500 text-sm transition-colors break-all">
-                    bharatinfra8080@gmail.com
+                  <a href="mailto:bharatinfrastructure8080@gmail.com" className="text-gray-400 hover:text-blue-500 text-sm transition-colors break-all">
+                    bharatinfrastructure8080@gmail.com
                   </a>
                 </div>
               </li>
