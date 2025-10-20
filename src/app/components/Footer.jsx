@@ -120,45 +120,57 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h4 className="text-lg font-bold mb-6 relative inline-block">
-              Get In Touch
-              <span className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-sky-500 to-blue-600 rounded-full"></span>
-            </h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3 group">
-                <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
-                  <MapPin className="w-4 h-4 text-blue-500 group-hover:text-white" />
-                </div>
-                <div>
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    Latur, Maharashtra, India
-                  </p>
-                </div>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
-                  <Phone className="w-4 h-4 text-blue-500 group-hover:text-white" />
-                </div>
-                <div>
-                  <a href="tel:+919876543210" className="text-gray-400 hover:text-blue-500 text-sm transition-colors">
-                    +91 8080529797
-                  </a>
-                </div>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
-                  <Mail className="w-4 h-4 text-blue-500 group-hover:text-white" />
-                </div>
-                <div>
-                  <a href="mailto:bharatinfrastructure8080@gmail.com" className="text-gray-400 hover:text-blue-500 text-sm transition-colors break-all">
-                    bharatinfrastructure8080@gmail.com
-                  </a>
-                </div>
-              </li>
-            </ul>
-          </div>
+       {/* Contact Info */}
+<div>
+  <h4 className="text-lg font-bold mb-6 relative inline-block">
+    Get In Touch
+    <span className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-sky-500 to-blue-600 rounded-full"></span>
+  </h4>
+  <ul className="space-y-4">
+    {/* Location */}
+    <li className="flex items-start gap-3 group">
+      <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
+        <MapPin className="w-4 h-4 text-blue-500 group-hover:text-white" />
+      </div>
+      <div>
+        <p className="text-gray-400 text-sm leading-relaxed">
+          Latur, Maharashtra, India
+        </p>
+      </div>
+    </li>
+
+    {/* Phone */}
+    <li className="flex items-start gap-3 group">
+      <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
+        <Phone className="w-4 h-4 text-blue-500 group-hover:text-white" />
+      </div>
+      <div>
+        <a
+          href="tel:+918080529797"
+          className="text-gray-400 hover:text-blue-500 text-sm transition-colors"
+        >
+          +91 8080529797
+        </a>
+      </div>
+    </li>
+
+    {/* Email */}
+    <li className="flex items-start gap-3 group">
+      <div className="mt-1 p-2 rounded-lg bg-gray-800 group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-blue-600 transition-all duration-300">
+        <Mail className="w-4 h-4 text-blue-500 group-hover:text-white" />
+      </div>
+      <div>
+        <a
+          href="mailto:bharatinfrastructure8080@gmail.com"
+          className="text-gray-400 hover:text-blue-500 text-sm transition-colors whitespace-nowrap"
+        >
+          bharatinfrastructure8080@gmail.com
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+
         </div>
 
         {/* Bottom Bar */}
