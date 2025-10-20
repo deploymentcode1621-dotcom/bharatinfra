@@ -43,8 +43,8 @@ export default function Footer() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-bold bg-gradient-to-r from-sky-400 to-blue-500 bg-clip-text text-transparent">
-                  Bharat Infra
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-sky-400 to-blue-500 shadow-sm bg-clip-text text-transparent">
+                  Bharat Infrastructure
                 </h3>
                 <p className="text-xs text-gray-400 font-medium">Solar Solutions</p>
               </div>
