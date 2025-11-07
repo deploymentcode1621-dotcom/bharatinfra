@@ -98,7 +98,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      details: ["bharatinfrastructure8080@gmail.com"],
+      details: ["bharatinfra8080@gmail.com"],
       color: "from-sky-500 to-blue-600",
     },
     {
