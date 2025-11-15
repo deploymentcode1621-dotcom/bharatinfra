@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.bharatinfrastructure.com/</loc>
+    <lastmod>2025-01-01</lastmod>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://www.bharatinfrastructure.com/about</loc>
-    <priority>0.8</priority>
+    <loc>https://www.bharatinfrastructure.com/services/solar-epc</loc>
   </url>
+
   <url>
-    <loc>https://www.bharatinfrastructure.com/services</loc>
-    <priority>0.8</priority>
+    <loc>https://www.bharatinfrastructure.com/services/civil-construction</loc>
   </url>
+
   <url>
-    <loc>https://www.bharatinfrastructure.com/contact</loc>
-    <priority>0.7</priority>
+    <loc>https://www.bharatinfrastructure.com/services/fencing</loc>
   </url>
+
+  <url>
+    <loc>https://www.bharatinfrastructure.com/services/transmission-line</loc>
+  </url>
+
+  <url>
+    <loc>https://www.bharatinfrastructure.com/services/telecommunication</loc>
+  </url>
+
 </urlset>

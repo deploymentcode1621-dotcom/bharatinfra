@@ -1,0 +1,22 @@
+export const cities = [
+  "latur",
+  "solapur",
+  "dharashiv",
+  "osmanabad",
+  "beed",
+  "nanded",
+  "nilanga",
+  "omerga",
+  "parbhani",
+  "aurangabad",
+  "nashik",
+  "pune",
+  "kolhapur",
+  "sangli",
+  "jalna",
+  "hingoli",
+  "akola",
+  "amravati",
+  "wardha",
+  "nagpur"
+];

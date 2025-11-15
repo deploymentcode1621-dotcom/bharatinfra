@@ -1,33 +1,41 @@
-// ✅ Server Component (SEO Friendly)
 export async function generateMetadata({ params }) {
-  const name = params.slug.replace(/-/g, " ");
+  const serviceName = params.slug.replace(/-/g, " ");
 
   return {
-    title: `${name} | Bharat Infrastructure`,
-    description: `Learn more about our ${name} service. Bharat Infrastructure provides trusted EPC, solar, O&M, civil and transmission services across India.`,
+    title: `${serviceName} in Latur, Maharashtra | Bharat Infrastructure`,
+    description: `Professional ${serviceName} services in Latur, Solapur, Osmanabad, Beed, Nanded, Nilanga, Omerga, and across Maharashtra. Trusted contractor since 2010.`,
+    keywords: [
+      `${serviceName} Latur`,
+      `${serviceName} contractor Latur`,
+      `${serviceName} services Maharashtra`,
+      `${serviceName} near me`,
+      `best ${serviceName} company Maharashtra`,
+    ],
+    alternates: {
+      canonical: `https://www.bharatinfrastructure.com/services/${params.slug}`,
+    },
     openGraph: {
-      title: `${name} | Bharat Infrastructure`,
-      description: `Complete details about our ${name} services.`,
+      title: `${serviceName} in Maharashtra | Bharat Infrastructure`,
+      description: `Expert ${serviceName} contractor serving Maharashtra.`,
       images: ["/images/LOGO3.png"],
+      url: `https://www.bharatinfrastructure.com/services/${params.slug}`,
+      type: "article",
     },
   };
 }
 
-export default function ServiceDetailPage({ params }) {
+export default function ServicePage({ params }) {
   const name = params.slug.replace(/-/g, " ");
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-orange-50 to-white px-6 py-20">
-      <h1 className="text-3xl md:text-5xl font-bold text-orange-600 mb-6 capitalize">
-        {name}
-      </h1>
+    <div className="container mx-auto py-20">
+      <h1 className="text-4xl font-bold mb-4">{name}</h1>
 
-      <p className="text-gray-700 text-lg max-w-2xl text-center">
-        This page contains details about <strong>{name}</strong>.  
-        Add descriptions, images or project examples for better SEO.
+      <p className="text-lg mb-6">
+        Bharat Infrastructure provides professional {name} services across
+        Maharashtra including Latur, Solapur, Dharashiv (Osmanabad), Beed,
+        Nanded, Nilanga, Omerga and more.
       </p>
-
-      <BackButton />
     </div>
   );
 }

@@ -4,56 +4,70 @@ import Footer from "./components/Footer";
 import FloatingContact from "./components/FloatingContact";
 
 export const metadata = {
-  title: "Bharat Infrastructure | Solar EPC, O&M & Civil Construction in Latur",
+  metadataBase: new URL("https://www.bharatinfrastructure.com"),
+  title: "Bharat Infrastructure | Solar EPC, O&M & Civil Construction in Latur, India",
   description:
-    "Bharat Infrastructure provides solar EPC projects, O&M services, transmission line work, civil construction, fencing, and telecom infrastructure across India.",
+    "Bharat Infrastructure is a leading Solar EPC, O&M, civil construction, fencing, telecom and infrastructure development company based in Latur, Maharashtra. Serving India since 2010.",
   keywords: [
+    "solar EPC company India",
     "solar EPC Latur",
-    "civil construction Maharashtra",
-    "transmission line contractor",
-    "solar O&M services",
-    "Bharat Infrastructure"
+    "solar installation Maharashtra",
+    "solar O&M contractor",
+    "civil construction Latur",
+    "fencing contractor Maharashtra",
+    "telecom infrastructure company",
+    "transmission line contractor Latur",
+    "bharat infrastructure Latur",
+    "renewable energy contractor Maharashtra",
+    "solar panel installation Latur",
+    "solar company near me",
+    "solar EPC Maharashtra",
+    "best solar company Maharashtra",
+    "33kV bay work contractor",
+    "chainlink fencing Latur",
+    "precast boundary wall Latur",
   ],
   openGraph: {
-    title: "Bharat Infrastructure | Solar EPC & Civil Construction",
+    title: "Bharat Infrastructure | Solar EPC & Civil Construction in Latur",
     description:
-      "Trusted EPC company in Latur offering solar projects, O&M, electrical transmission, fencing, telecom and civil infrastructure solutions.",
+      "Solar EPC, O&M, fencing, civil construction and telecom solutions across Maharashtra.",
     url: "https://www.bharatinfrastructure.com",
     siteName: "Bharat Infrastructure",
     images: ["/images/LOGO3.png"],
-    type: "website"
+    locale: "en_IN",
+    type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Bharat Infrastructure | Solar EPC & Civil Construction",
-    description:
-      "Trusted EPC partner for solar, O&M, civil and electrical projects in Maharashtra and India.",
-    images: ["/images/LOGO3.png"]
+  robots: {
+    index: true,
+    follow: true,
   },
-  robots: { index: true, follow: true }
+  alternates: {
+    canonical: "https://www.bharatinfrastructure.com",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" dir="ltr">
+    <html lang="en">
       <head>
         {/* Google Analytics */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-C6MKYWRGTL"
         />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-C6MKYWRGTL');
-            `,
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-C6MKYWRGTL');
+              `,
           }}
         />
 
-        {/* JSON-LD */}
+        {/* JSON-LD Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -62,7 +76,8 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "Bharat Infrastructure",
               url: "https://www.bharatinfrastructure.com",
-              logo: "https://www.bharatinfrastructure.com/images/LOGO3.png",
+              logo:
+                "https://www.bharatinfrastructure.com/images/LOGO3.png",
               description:
                 "Solar EPC, O&M, Transmission line, Civil Construction and Telecom services in Latur, Maharashtra.",
               address: {
@@ -83,7 +98,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className="font-sans text-gray-900 bg-white" suppressHydrationWarning>
+      <body className="font-sans text-gray-900 bg-white">
         <Header />
         {children}
         <Footer />
